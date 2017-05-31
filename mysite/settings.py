@@ -26,6 +26,7 @@ SECRET_KEY = 'k@oj67s^a@1u++a!6cuzh-cwoe@8@wazh(d4h-a*e)6u2ircj2'
 DEBUG = True
 
 ALLOWED_HOSTS = ['karolinagendek.pythonanywhere.com']
+host_validation_re = re.compile(r"^([a-z0-9.-]+|\[[a-f0-9]*:[a-f0-9:]+\])(:\d+)?$")
 
 
 # Application definition
